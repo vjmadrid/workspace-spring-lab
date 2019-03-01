@@ -1,0 +1,73 @@
+
+*******************************************
+ Configuracion de Test SIN Contexto de Test
+*******************************************
+
+	1.	OldXMLBeanConfigurationTest : Ejemplo de configuracion de Spring basado en XML (SIN Contexto de Test)
+
+	2. 	OldAnnotationBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Anotaciones (SIN Contexto de Test)
+	
+	3. 	OldJavaBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Java (SIN Contexto de Test)	
+
+********************************************
+ Configuración de Test CON Contexto de Test
+********************************************	
+	
+	4.	XMLBeanConfigurationTest : Ejemplo de configuracion de Spring basado en XML (CON Contexto de Test)
+
+	5. 	AnnotationBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Anotaciones (CON Contexto de Test)
+	
+	6. 	JavaBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Java (CON Contexto de Test)	
+
+	7. 	MixedConfigApplicationContextTest : Ejemplo de configuracion de Spring basado en XML + Java (CON Contexto de Test)
+	
+	8. 	InitializerConfigApplicationContextTest : Ejemplo de configuracion de Spring con clase Initializer (CON Contexto de Test)
+
+**********
+ Perfiles
+**********	
+
+	9. ProfileTest : Ejemplo para probar perfiles de Spring en ámbito de test
+	
+	
+*************
+ Environment
+*************	
+
+	10. EnvironmentTest : Ejemplo de Spring que muestra una propiedad de un fichero de propiedades 
+
+	11. MockEnvironmentTest :Ejemplo de Spring para mockear una propiedad de un fichero de propiedades
+
+	12. MockJNDITest : Ejemplo de clase que permite mockear una llamada "lookup" de JNDI a un datasource
+
+*****************************
+ Herencia de configuraciones
+*****************************	
+
+	13. InheritXMLConfigApplicationContextTest : Ejemplo de herencia de configuraciones
+
+*****************************
+ Inyección de dependencias
+*****************************	
+	
+	14. DependencyInjectionTest	: Ejemplo de inyección de dependencias en test
+	
+*****************************
+ Transacciones
+*****************************	
+		
+	15. TransactionalTest : Ejemplo de transacciones con Spring	
+
+*****************************
+ Aplicaciones Web
+*****************************		
+
+	16. WebApplicationTest : Ejemplo de pruebas de aplicaciones web con Spring (Simulacion de elementos necesarios)
+	
+*******************************************
+  Custom Listener
+*******************************************
+
+	17.	CustomTestExecutionListenerTest : Ejemplo de incorporación de un Custom listener en las pruebas
+
+	

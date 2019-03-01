@@ -1,0 +1,29 @@
+
+*******************************************
+  Ejercicios basicos
+*******************************************
+
+	1.	HelloWorldTest : Ejemplo "Hola Mundo" con Spring
+
+	2.	HelloWorldLifeCycleTest : Ejemplo ciclo de vida de un Bean de Spring
+
+*******************************************
+ Ejercicios basados en configuracion 
+*******************************************
+
+	3.	XMLBeanConfigurationTest : Ejemplo de configuracion de Spring basado en XML
+
+	4. 	AnnotationBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Anotaciones
+	
+	5. 	JavaBeanConfigurationTest : Ejemplo de configuracion de Spring basado en Java	
+
+
+*******************************************
+ Ejercicios gestion beans
+*******************************************
+
+	6.	ConstructorInjectionTest : Ejemplo de uso de contructores en beans
+
+	7. 	SetterInjectionTest : Ejemplo de uso de set de valores en beans
+
+	8.	BeanInstantiationMethodsTest : Ejemplo de uso de factorias en beans
