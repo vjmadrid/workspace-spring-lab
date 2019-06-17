@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.repository.impl;
+package com.acme.example.custom.message.core.repository.impl;
 
 import java.io.Serializable;
 import java.util.Iterator;

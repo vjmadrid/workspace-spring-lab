@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config.environment;
+package com.acme.example.custom.message.core.config.environment;
 
 import java.util.Properties;
 
@@ -16,7 +16,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import com.acme.architecture.common.constant.SpringConfigConstant;
-import com.acme.example.custom.message.constant.GeneralCustomMessageConfigConstant;
+import com.acme.example.custom.message.core.constant.GeneralCustomMessageConfigConstant;
 
 import liquibase.integration.spring.SpringLiquibase;
 

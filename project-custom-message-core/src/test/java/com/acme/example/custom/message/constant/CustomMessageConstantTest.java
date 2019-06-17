@@ -5,6 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import org.junit.Test;
 
 import com.acme.architecture.testing.util.JUnitTestBuilder;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
 
 public class CustomMessageConstantTest {
 

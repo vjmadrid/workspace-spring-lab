@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.validator;
+package com.acme.example.custom.message.core.validator;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -10,8 +10,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.acme.architecture.testing.util.JUnitTestBuilder;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.validator.CustomMessageValidator;
 
 public class CustomMessageValidatorTest {
 

@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config.environment;
+package com.acme.example.custom.message.core.config.environment;
 
 import javax.naming.NamingException;
 import javax.sql.DataSource;

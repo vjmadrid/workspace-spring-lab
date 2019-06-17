@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.repository;
+package com.acme.example.custom.message.core.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -20,13 +20,14 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.acme.architecture.common.constant.SpringConfigConstant;
-import com.acme.example.custom.message.config.CommonTemplateConfig;
-import com.acme.example.custom.message.constant.CustomMessageConstant;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.config.CustomMessageConfig;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes={CommonTemplateConfig.class})
+@ContextConfiguration(classes={CustomMessageConfig.class})
 @ActiveProfiles(profiles={SpringConfigConstant.SPRING_PROFILE_DEVELOPMENT})
 @DirtiesContext(classMode = ClassMode.AFTER_EACH_TEST_METHOD)
 public class CustomMessageRepositoryHibernateAbstractDaoTest {

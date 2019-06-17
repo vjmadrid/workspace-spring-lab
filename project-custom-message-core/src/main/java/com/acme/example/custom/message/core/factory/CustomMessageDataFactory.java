@@ -1,7 +1,7 @@
-package com.acme.example.custom.message.factory;
+package com.acme.example.custom.message.core.factory;
 import java.util.Date;
 
-import com.acme.example.custom.message.entity.CustomMessage;
+import com.acme.example.custom.message.core.entity.CustomMessage;
 
 public final class CustomMessageDataFactory {
 

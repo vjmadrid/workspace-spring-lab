@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.service;
+package com.acme.example.custom.message.core.service;
 
 import static org.mockito.Matchers.anyLong;
 import static org.mockito.Mockito.mock;
@@ -8,10 +8,10 @@ import static org.mockito.Mockito.when;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
-import com.acme.example.custom.message.service.impl.CustomMessageServiceImpl;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.service.impl.CustomMessageServiceImpl;
 
 
 public class CustomMessageServiceTest {

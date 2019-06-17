@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config.persistence;
+package com.acme.example.custom.message.core.config.persistence;
 
 import java.util.Properties;
 
@@ -15,7 +15,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.acme.example.custom.message.constant.GeneralCustomMessageConfigConstant;
+import com.acme.example.custom.message.core.constant.GeneralCustomMessageConfigConstant;
 
 @Configuration
 @EnableTransactionManagement

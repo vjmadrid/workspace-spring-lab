@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.repository.impl;
+package com.acme.example.custom.message.core.repository.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Repository;
 
 import com.acme.architecture.persistence.repository.test.impl.GenericMapInMemoryRepositoryImpl;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
 
 @Repository ("customMessageRepositoryInMemory")
 public class CustomMessageRepositoryInMemoryImpl extends GenericMapInMemoryRepositoryImpl<CustomMessage, Long> implements CustomMessageRepository {

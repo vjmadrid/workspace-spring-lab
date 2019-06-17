@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.constant;
+package com.acme.example.custom.message.core.constant;
 
 public final class CustomMessageConstant {
 

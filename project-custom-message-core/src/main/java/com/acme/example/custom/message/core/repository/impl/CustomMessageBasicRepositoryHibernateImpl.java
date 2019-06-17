@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.repository.impl;
+package com.acme.example.custom.message.core.repository.impl;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.repository.CustomMessageBasicRepository;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.repository.CustomMessageBasicRepository;
 
 @Repository("customMessageBasicRepository")
 public class CustomMessageBasicRepositoryHibernateImpl implements CustomMessageBasicRepository {

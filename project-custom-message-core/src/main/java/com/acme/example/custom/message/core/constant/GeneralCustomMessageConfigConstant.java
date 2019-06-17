@@ -1,11 +1,11 @@
-package com.acme.example.custom.message.constant;
+package com.acme.example.custom.message.core.constant;
 
 public final class GeneralCustomMessageConfigConstant {
 
 	private GeneralCustomMessageConfigConstant() {
 	}
 
-	public static final String BASE_PACKAGE = "com.acme.example.custom.message";
+	public static final String BASE_PACKAGE = "com.acme.example.custom.message.core";
 	public static final String ENTITY_PACKAGE = BASE_PACKAGE + ".entity";
 	public static final String DOMAIN_PACKAGE = BASE_PACKAGE + ".domain";
 	public static final String REPOSITORY_PACKAGE = BASE_PACKAGE + ".repository";

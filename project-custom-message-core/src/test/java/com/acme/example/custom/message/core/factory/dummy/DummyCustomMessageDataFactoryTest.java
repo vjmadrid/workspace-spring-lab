@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.factory.dummy;
+package com.acme.example.custom.message.core.factory.dummy;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,9 +9,9 @@ import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.acme.example.custom.message.constant.CustomMessageConstant;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
 
 public class DummyCustomMessageDataFactoryTest {
 

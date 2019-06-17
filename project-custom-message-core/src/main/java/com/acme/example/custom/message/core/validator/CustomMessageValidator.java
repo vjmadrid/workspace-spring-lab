@@ -1,6 +1,6 @@
-package com.acme.example.custom.message.validator;
+package com.acme.example.custom.message.core.validator;
 
-import com.acme.example.custom.message.entity.CustomMessage;
+import com.acme.example.custom.message.core.entity.CustomMessage;
 
 public enum CustomMessageValidator {
 

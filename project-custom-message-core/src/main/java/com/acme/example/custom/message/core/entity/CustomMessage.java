@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.entity;
+package com.acme.example.custom.message.core.entity;
 
 import java.util.Date;
 

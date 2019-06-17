@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config.environment;
+package com.acme.example.custom.message.core.environment;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -12,6 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.acme.architecture.common.constant.SpringConfigConstant;
+import com.acme.example.custom.message.core.config.environment.DevelopmentConfig;
 
 import liquibase.integration.spring.SpringLiquibase;
 

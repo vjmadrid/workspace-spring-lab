@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config;
+package com.acme.example.custom.message.core.config;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import com.acme.example.custom.message.config.PropertiesConfig;
+import com.acme.example.custom.message.core.config.PropertiesConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { PropertiesConfig.class }, loader = AnnotationConfigContextLoader.class)

@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.repository.impl;
+package com.acme.example.custom.message.core.repository.impl;
 
 import javax.annotation.PostConstruct;
 
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.acme.architecture.persistence.repository.hibernate.impl.GenericHibernateRepositoryImpl;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
 
 @Repository ("customMessageRepository")
 @Transactional

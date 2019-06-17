@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.entity;
+package com.acme.example.custom.message.core.entity;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -10,9 +10,9 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.acme.example.custom.message.constant.CustomMessageConstant;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
 
 public class CustomMessageTest {
 	

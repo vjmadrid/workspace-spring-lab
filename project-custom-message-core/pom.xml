@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.acme.example.custom.message</groupId>
-	<artifactId>project-custom-message-example</artifactId>
+	<groupId>com.acme.example.custom.message.core</groupId>
+	<artifactId>project-custom-message-core</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>project-custom-message-example</name>
+	<name>project-custom-message-core</name>
 	<description></description>
 
 	<properties>
@@ -120,7 +120,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>project-custom-message-example</finalName>
+		<finalName>project-custom-message-core</finalName>
 
 		<resources>
 			<resource>

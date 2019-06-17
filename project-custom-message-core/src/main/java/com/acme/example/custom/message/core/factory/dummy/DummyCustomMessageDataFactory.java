@@ -1,12 +1,12 @@
-package com.acme.example.custom.message.factory.dummy;
+package com.acme.example.custom.message.core.factory.dummy;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.acme.example.custom.message.constant.CustomMessageConstant;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.factory.CustomMessageDataFactory;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.factory.CustomMessageDataFactory;
 
 public final class DummyCustomMessageDataFactory {
 

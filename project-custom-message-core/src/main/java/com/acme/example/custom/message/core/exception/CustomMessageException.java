@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.exception;
+package com.acme.example.custom.message.core.exception;
 
 import com.acme.architecture.common.constant.GlobalConstant;
 import com.acme.architecture.common.exception.AcmeException;

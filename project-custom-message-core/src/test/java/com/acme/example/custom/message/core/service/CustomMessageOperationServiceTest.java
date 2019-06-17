@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.service;
+package com.acme.example.custom.message.core.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -16,13 +16,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import com.acme.example.custom.message.constant.CustomMessageConstant;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.exception.CustomMessageException;
-import com.acme.example.custom.message.exception.enumerate.CustomMessageTypeExceptionEnum;
-import com.acme.example.custom.message.factory.dummy.DummyCustomMessageDataFactory;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
-import com.acme.example.custom.message.service.impl.CustomMessageOperationServiceImpl;
+import com.acme.example.custom.message.core.constant.CustomMessageConstant;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.exception.CustomMessageException;
+import com.acme.example.custom.message.core.exception.enumerate.CustomMessageTypeExceptionEnum;
+import com.acme.example.custom.message.core.factory.dummy.DummyCustomMessageDataFactory;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.service.impl.CustomMessageOperationServiceImpl;
 
 public class CustomMessageOperationServiceTest {
 	

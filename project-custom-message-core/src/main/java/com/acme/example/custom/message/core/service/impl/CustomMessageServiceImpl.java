@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.service.impl;
+package com.acme.example.custom.message.core.service.impl;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.acme.architecture.common.util.converter.CollectionConverter;
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
-import com.acme.example.custom.message.service.CustomMessageService;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.service.CustomMessageService;
 
 @Service("customMessageService")
 @Transactional(readOnly = true)

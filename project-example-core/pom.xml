@@ -40,7 +40,6 @@
 		
 		<!-- *** Project Libraries *** -->
 		
-		<!-- acme-example-commons : application commons artifact -->
 		<dependency>
 			<groupId>com.acme.example.common</groupId>
 			<artifactId>project-example-common</artifactId>

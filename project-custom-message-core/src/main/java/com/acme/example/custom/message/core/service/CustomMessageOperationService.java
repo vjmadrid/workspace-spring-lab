@@ -1,9 +1,9 @@
-package com.acme.example.custom.message.service;
+package com.acme.example.custom.message.core.service;
 
 import java.util.List;
 
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.exception.CustomMessageException;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.exception.CustomMessageException;
 
 public interface CustomMessageOperationService {
 

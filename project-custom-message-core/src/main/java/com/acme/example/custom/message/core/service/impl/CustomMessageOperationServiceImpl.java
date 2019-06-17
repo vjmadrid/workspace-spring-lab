@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.service.impl;
+package com.acme.example.custom.message.core.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -13,12 +13,12 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.acme.example.custom.message.entity.CustomMessage;
-import com.acme.example.custom.message.exception.CustomMessageException;
-import com.acme.example.custom.message.exception.enumerate.CustomMessageTypeExceptionEnum;
-import com.acme.example.custom.message.repository.CustomMessageRepository;
-import com.acme.example.custom.message.service.CustomMessageOperationService;
-import com.acme.example.custom.message.validator.CustomMessageValidator;
+import com.acme.example.custom.message.core.entity.CustomMessage;
+import com.acme.example.custom.message.core.exception.CustomMessageException;
+import com.acme.example.custom.message.core.exception.enumerate.CustomMessageTypeExceptionEnum;
+import com.acme.example.custom.message.core.repository.CustomMessageRepository;
+import com.acme.example.custom.message.core.service.CustomMessageOperationService;
+import com.acme.example.custom.message.core.validator.CustomMessageValidator;
 
 @Service("customMessageOperationService")
 @Transactional

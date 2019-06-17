@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config;
+package com.acme.example.custom.message.core.config;
 
 import javax.annotation.PostConstruct;
 

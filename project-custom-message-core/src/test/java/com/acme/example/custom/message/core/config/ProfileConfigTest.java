@@ -1,4 +1,4 @@
-package com.acme.example.custom.message.config;
+package com.acme.example.custom.message.core.config;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,6 +13,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.acme.architecture.common.constant.SpringConfigConstant;
+import com.acme.example.custom.message.core.config.ProfileConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { ProfileConfig.class })
